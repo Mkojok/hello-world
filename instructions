@@ -1,0 +1,11 @@
+NLP - Supervised keyword extractor from short texts
+
+-	The algorithm has to be written in python, and I cannot provide any data.
+-	It needs to extract information from a website (a short text) and extract the keywords from that text. It needs to have a well-defined and robust input space. It needs to be supervised. It should also be able to detect misspelled keywords with the help of fuzzy search logic. It should detect negation, and not label it as a keyword. (ex: no fire was found, but there was a lot of water) in this case fire should not be extracted as a keyword. In addition, I will have a list of prewritten keywords in a txt file, and if these keywords are encountered in the short text, they should be detected and extracted as keywords.
+-	You can use whatever data preprocessing, feature calculation, machine learning modeling method, etc.. you want. As long as the keywords that we are getting are accurate.
+
+-	Example text: “Car engine was found damaged from water leak, no materials where found in the oil. Engine needs to be replaced.”
+
+-	The output that I am expecting with the algorithm should be something like this: “engine”, “damaged”, “water”, “replaced”.
+You are free to do whatever you want as long as it’s supervised and somewhat accurate. 
+-	In addition, it would be nice if you write a lot of comments in the code and documentation for the algorithm to understand everything. 
